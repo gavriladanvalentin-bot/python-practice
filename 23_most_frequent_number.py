@@ -3,9 +3,9 @@ numbers = [1, 3, 2, 3, 4, 1, 3, 2, 1, 1]
 
 count_max = 0
 most_frequen = None
-count = 0
 
 for x in numbers:
+    count = 0
 
     for y in range(0, len(numbers)):
         if x == numbers[y]:
