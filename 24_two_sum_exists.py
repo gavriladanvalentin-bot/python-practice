@@ -8,6 +8,4 @@ for x in range(0, len(numbers)):
     for y in range(x+1, len(numbers)):
         if numbers[x] + numbers[y] == target and x != y:
             answer = True
-
-
-print(answer)
+            print(answer)
